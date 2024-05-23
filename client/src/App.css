@@ -1,0 +1,7 @@
+.background-image {
+    background-image: url('https://i.pinimg.com/564x/6d/7c/48/6d7c480b12e4eebfde2f8908851e8f16.jpg');
+    background-size: cover; /* เพื่อให้ภาพครอบคลุมพื้นที่ทั้งหมด */
+    background-position: center; /* จัดตำแหน่งภาพให้อยู่ตรงกลาง */
+    width: 100%;
+    min-height: 100vh; 
+  }

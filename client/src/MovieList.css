@@ -1,0 +1,83 @@
+.App {
+  text-align: center;
+}
+
+.movie-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.movie-card {
+  background-color: #f9f9f9a8;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgb(0 0 0 / 14%);
+  /* width: 550px; */
+  width: 350px;
+  margin: 20px;
+  padding: 20px;
+  text-align: center;
+  color: #3d3657;
+  position: relative;
+  /* font-family: Arial, sans-serif; */
+}
+
+.movie-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.movie-card .delete-icon {
+  cursor: pointer;
+  color: #dc3545;
+}
+
+.movie-card img {
+  max-width: 100%;
+  height: 300px;
+  border-radius: 5px;
+}
+
+.movie-card h2 {
+  font-size: 1.5em;
+}
+
+.movie-card p {
+  text-align: left;
+  margin: 10px 0;
+}
+.add-movie-button {
+  display: inline-block;
+  margin: 20px 0;
+  padding: 10px 20px;
+  font-size: 1em;
+  color: #fff;
+  background-color: #4d5e7c;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.add-movie-button:hover {
+  background-color: #4d647c;
+}
+
+.MovieList{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #364457;
+}
+.title{
+  margin: 10px 50px;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+.css-1wnsr1i {
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgb(0 0 0 / 14%);
+  border:none !important;
+}
